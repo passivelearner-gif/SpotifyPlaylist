@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatilble" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Playlist</title>
+  <link rel="stylesheet" href="./style.css">
+<style>
+.divScroll {
+overflow:scroll;
+height:100%;
+width:100%;
+}
+</style>
+</head>
+<body>
+<div style="display:flex; align-items:center; justify-content:center; height:100vh">
+<div class="divScroll">
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2vmdv2jcajaSG6idtsNGxy?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<!-- partial:index.partial.html -->
+<body>
+  <canvas id="canvas" width="1400" height="600"></canvas>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+</div>
+</div>
+</body>
+</html>
